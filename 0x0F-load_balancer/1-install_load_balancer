@@ -11,7 +11,7 @@ cat >> /etc/haproxy/haproxy.cfg << EOF
     balance roundrobin
     option httpclose
     option forwardfor
-    server 1026-web-01 3.236.116.4:80 check
-    server 1026-web-02 3.238.201.120:80 check
+    server 3645-web-01 3.234.214.251 check
+    server 3645-web-02 34.204.189.222 check
 EOF
 service haproxy restart

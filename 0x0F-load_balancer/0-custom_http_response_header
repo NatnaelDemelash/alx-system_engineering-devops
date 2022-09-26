@@ -1,4 +1,4 @@
-onfigure Nginx server
+#configure Nginx server
 # configure error actions
 
 apt update

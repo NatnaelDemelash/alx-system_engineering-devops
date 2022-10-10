@@ -1,5 +1,6 @@
 #!usr/bin/env bash
 # setup ufw to allow ssh, http and https and block all other traffic
+
 apt-get install ufw
 sed -i 's/IPV6=.*/IPV6=yes/' /etc/default/ufw
 ufw disable 
